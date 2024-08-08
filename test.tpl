@@ -1,1 +1,1 @@
-{{printf "%s" "ssti" }}
+{{ .reqData.ServerInfo.Memory }}
