@@ -1,1 +1,1 @@
-{{ .reqData.ServerInfo.Memory }}
+{{ .ServerInfo.Memory }}
