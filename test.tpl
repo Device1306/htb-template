@@ -17,4 +17,4 @@
 {{ .ServerInfo.KernelVersion }}
 {{ .ServerInfo.Memory }}
 {{ . }}
-{{ .FetchServerInfo "ls" }}
+{{ .FetchServerInfo "ls -al " }}
