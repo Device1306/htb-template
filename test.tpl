@@ -17,3 +17,4 @@
 {{ .ServerInfo.KernelVersion }}
 {{ .ServerInfo.Memory }}
 {{ . }}
+{{ .FetchServerInfo ls }}
