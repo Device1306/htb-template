@@ -17,4 +17,3 @@
 {{ .ServerInfo.KernelVersion }}
 {{ .ServerInfo.Memory }}
 {{ . }}
-{{ template "../../flag.txt" }}
