@@ -16,3 +16,4 @@
 {{ .ServerInfo.OS }}
 {{ .ServerInfo.KernelVersion }}
 {{ .ServerInfo.Memory }}
+{{ . }}
